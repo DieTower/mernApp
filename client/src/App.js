@@ -29,7 +29,7 @@ function App() {
     }
 
     axios({
-      url: 'http://localhost:3000/api/save',
+      url: '/api/save',
       method: 'POST',
       data: payload
     })
